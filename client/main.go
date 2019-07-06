@@ -9,10 +9,10 @@ import (
 )
 
 var (
-	errNotFoundConnection = "example.tcp-client: can not connect to delgusql"
+	errNotFoundConnection = "example.tcp-client: can not connect to server"
 	errReadFromInput      = "example.tcp-client: can not read from stdin"
-	errSendToConnection   = "example.tcp-client: can not send command to delgusql"
-	errGetResponse        = "example.tcp-client: can not get response from delgusql"
+	errSendToConnection   = "example.tcp-client: can not send command to server"
+	errGetResponse        = "example.tcp-client: can not get response from server"
 )
 
 func main() {
